@@ -7,10 +7,12 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { BclInMemoryDataService } from './bcl-in-memory-data.service';
 
 import { BclComponent } from './bcl.component';
+import { BclIconComponent } from './bcl-icon/bcl-icon.component';
 
 @NgModule({
   declarations: [
-    BclComponent
+    BclComponent,
+    BclIconComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,65 @@
+@import '../theme/bcl.scss';
+
+:host {
+	display:inline-block;
+	text-align:center;
+
+	.firewall .fa-fire {
+		position: absolute;
+		color: $yellow;
+	}
+
+	.firewall .fa-align-justify {
+		color: $medium-red;
+	}
+
+	.xsm {
+		font-size: 1em;
+	}
+
+	.sm {
+		font-size: 2em;
+	}
+
+	.md {
+		font-size: 3em;
+	}
+
+	.lg {
+		font-size: 4.5em;
+	}
+
+	.xlg {
+		font-size: 6em;
+	}
+
+	.text {
+		text-align: left;
+		
+		&-xsm {
+				font-size: 0.8em;
+			}
+
+		&-sm {
+				font-size: 1em;
+			}
+
+		&-md {
+				font-size: 1.5em;
+			}
+
+		&-lg {
+				font-size: 2em;
+			}
+
+		&-xlg {
+				font-size: 2.5em;
+			}
+
+		&-bottom {
+			display: block;
+		}
+
+	}
+
+}

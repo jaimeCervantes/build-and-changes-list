@@ -2,12 +2,14 @@
 
 import { TestBed, async } from '@angular/core/testing';
 import { BclComponent } from './bcl.component';
+import { BclIconComponent } from './bcl-icon/bcl-icon.component';
 
 describe('BclComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
-        BclComponent
+        BclComponent,
+        BclIconComponent
       ],
     });
     TestBed.compileComponents();
