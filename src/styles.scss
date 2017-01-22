@@ -1,0 +1,30 @@
+@import "~font-awesome/scss/variables";
+
+//import variables and override $fa-font-path to load fonts
+@import '~app/theme/bcl';
+
+@import "~font-awesome/scss/mixins";
+@import "~font-awesome/scss/path";
+@import "~font-awesome/scss/core";
+@import "~font-awesome/scss/larger";
+@import "~font-awesome/scss/fixed-width";
+@import "~font-awesome/scss/list";
+@import "~font-awesome/scss/bordered-pulled";
+@import "~font-awesome/scss/animated";
+@import "~font-awesome/scss/rotated-flipped";
+@import "~font-awesome/scss/stacked";
+@import "~font-awesome/scss/icons";
+@import "~font-awesome/scss/screen-reader";
+
+body {
+	background-color: white;
+	padding: 0;
+	margin:0;
+	font-family:Helvetica;
+	font-size: 14px;
+	line-height: 1.4;
+	font-weight: normal;
+	font-variant: normal;
+	font-stretch: normal;
+	color: $black;
+}
