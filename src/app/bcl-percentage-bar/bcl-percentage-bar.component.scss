@@ -1,0 +1,49 @@
+@import "../theme/bcl.scss";
+
+:host {
+	display: inline-block;
+	width:100%;
+	padding: 0;
+	margin:0;
+	position: relative;
+}
+
+.increment, .empty {
+	transition: width 1s;
+	width:1%;
+	display:inline-block;
+	min-height: 2.5em;
+	padding:0;
+	margin:0;
+	float: left
+}
+
+.increment {
+	background-color: $light-green;
+}
+
+.empty {
+	background-color: $gray;
+}
+
+.info {
+	position: absolute;
+	width: 100%;
+	top:0.3em;
+	left: 0;
+	height: inherit;
+	text-align:center;
+	line-height: 1;
+	
+	overflow:hidden;
+
+	.percentage {
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+
+	.text {
+		font-weight: 300;
+		font-size: 0.9em;
+	}
+}

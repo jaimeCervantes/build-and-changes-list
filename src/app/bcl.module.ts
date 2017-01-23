@@ -8,11 +8,13 @@ import { BclInMemoryDataService } from './bcl-in-memory-data.service';
 
 import { BclComponent } from './bcl.component';
 import { BclIconComponent } from './bcl-icon/bcl-icon.component';
+import { BclPercentageBarComponent } from './bcl-percentage-bar/bcl-percentage-bar.component';
 
 @NgModule({
   declarations: [
     BclComponent,
-    BclIconComponent
+    BclIconComponent,
+    BclPercentageBarComponent
   ],
   imports: [
     BrowserModule,

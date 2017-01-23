@@ -1,0 +1,6 @@
+<div class="increment" [ngStyle]="{ 'width': getIncrementValue() }"></div>
+<div class="empty" [ngStyle]="{ 'width': getEmptyValue() }"></div>	
+<div class="info">
+	<div class="percentage">{{increment+ '%'}}</div>
+	<div class="text" *ngIf="text">{{text}}</div>	
+</div>
