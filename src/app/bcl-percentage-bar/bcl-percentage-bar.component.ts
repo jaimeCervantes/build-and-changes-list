@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BclPercentageBarComponent implements OnInit {
 	
-	@Input() increment: number = 50;
+	@Input() increment: number = 0;
 	@Input() text: string = '';
 
 	constructor(){}

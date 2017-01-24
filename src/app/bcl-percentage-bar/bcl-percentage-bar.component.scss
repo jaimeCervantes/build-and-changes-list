@@ -9,7 +9,7 @@
 }
 
 .increment, .empty {
-	transition: width 1s;
+	transition: width 1s ease 0.1s;
 	width:1%;
 	display:inline-block;
 	min-height: 2.5em;
